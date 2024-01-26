@@ -1,0 +1,371 @@
+*{
+      padding: 0px;
+      margin: 0px;
+}
+
+body{
+      width: 94.5rem;
+}
+
+header{
+      height: 5rem;
+      background-color: #435062;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+}
+
+#footimg{
+      width: 10rem;
+      height: 5rem;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem;
+      margin: 0.5rem;
+      font-size: 2rem;
+      text-transform: capitalize;
+
+}
+
+a{
+      text-decoration: none;
+      color: #94a7c1;
+}
+
+.nav{
+      display: flex;
+      justify-content: space-between;
+}
+
+.wayto{
+      margin: 0 5rem 0 0;
+}
+
+.butt{
+      padding: 0.5rem;
+      background-color: #94a7c1;
+      border-radius: 0.7rem;
+      font-size: 1rem;
+}
+
+#firstmaindiv{
+      display: flex;
+}
+
+#firstdivbig{
+      font-size: 3rem;
+      font-weight: 600;
+}
+
+.firstdivsmall, #seconddivsmall{
+      font-size: 1.5rem;
+}
+
+.firstdiv{
+      height: 8rem;
+      width: 50rem;
+      justify-content: center;
+      align-items: center;
+      padding: 5rem;
+}
+
+#firstimg{
+      height: 35rem;
+      width: 50rem;
+}
+
+#firstbutton, #sixbutton{
+      padding: 1rem;
+      margin: 2rem;
+      background-color: #51cbb0;
+      color: white;
+      font-weight: 300;
+}
+
+#seconddiv{
+      padding: 2rem;
+}
+
+#secondbig{
+      font-size: 2rem;
+      padding: 2rem;
+}
+
+#seconddivsmall{
+      width: 65rem;
+      height: 8rem;
+      padding: 2rem;
+}
+/*
+
+.material-symbols-outlined {
+      
+        font-variation-settings:
+        'FILL' 10,
+        'wght' 400,
+        'GRAD' 10,
+        'opsz' 44,
+        
+     
+}
+
+*/
+
+.material-symbols-outlined{
+      height: 2rem;
+      width: 2rem;
+      padding: 0.5rem;
+      font-size: larger;
+      background-color: #51CBB0;
+      border-radius: 50%;
+      font-size: 45px;
+     
+}
+
+#thirdsec{
+      display: flex;
+      justify-content: space-around;
+      margin: 0rem 2rem ;
+      padding: 2rem;
+}
+
+.thirdbig{
+      font-size: 2rem;
+}
+
+.thirdsmall{
+      font-size: 1.2rem;
+}
+
+#fourthdiv{
+      display: flex;
+      justify-content: space-around;
+      background-color: #f7fbfa;
+      height: 25rem;
+}
+
+strong{
+      font-size: 2.5rem;
+      line-height: 4rem;
+      padding: 2rem 6rem;
+}
+
+.buy{
+      height: 10rem;
+      width: 30rem;
+}
+
+.cat{
+      display: flex;
+      line-height: 1.5rem;
+}
+
+.catogerey , .monthly{
+      font-size: 1.5rem;
+}
+
+.fourthtext{
+      padding: 0rem 1.5rem  1.5rem 1.5rem;
+}
+
+.desp, .using{
+      font-size: 1rem;
+}
+
+.fivediv{
+      display: flex;
+      padding: 1.5rem;
+
+}
+
+.fiveimga{
+      height: 4.5rem;
+      padding: 0 1.5rem;
+}
+
+.sixdiv{
+      display: flex;
+      padding: 5rem;
+}
+
+#ownstoreimg{
+      width: 40rem;
+}
+
+.catogerey{
+      font-weight: 400;
+}
+
+.using{
+      
+      font-size: 1rem;
+}
+
+.ownstore2{
+      padding: 0 5rem;
+}
+
+.OwnStore{
+      padding: 0 5rem;
+      justify-content: center;
+      width: 45rem;
+      width: 55rem;
+}
+
+#store{
+      font-size: 2rem;
+      font-weight: 500;
+      margin: 5rem 13rem;
+}
+
+#our{
+      font-size: 1rem;
+      margin: 0 7.5rem;
+}
+
+
+#sixbutton{
+      margin: 0 15rem;
+}
+
+#sevensdiv{
+      background-image: url(images.jpg);
+      height: 25rem;
+      
+}
+
+#seventext{
+      float: right;
+      margin: 10rem;
+}
+
+#pricehideing{
+      font-size: 4rem;
+      justify-content: center;
+      width: 95rem;
+}
+
+.prices{
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem;
+}
+
+.price{
+      margin: 1rem 7rem 1rem 3rem;
+      background-color: #f5f1f1;
+      width: 75rem;
+}
+
+#pricehideings{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      width: 89rem;
+}
+
+.eightpricediv{
+      font-weight: 400;
+      padding: 0;
+      font-size: 2rem;
+      
+}
+
+.eightpricedivs{
+      font-weight: 400;
+      padding: 0;
+      font-size: 2rem;
+      color: white;
+
+}
+
+.eightbigsmall{
+      color: white;
+      font-weight: 200;
+}
+
+.eightdivprice{
+      display: flex;
+      justify-content: space-around;
+      background-color: #51cbb0;
+      padding: 1rem;
+      text-align: center;
+      margin: 1.5rem 0 1.5rem 0;
+}
+
+.eightsmall{
+      font-size: 1.1rem;
+      color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerdiv{
+      display: flex;
+      justify-content: space-around;
+      width: 94rem;
+      background-color: #f7fbfa;
+      padding: 1.5rem 0;
+}
+
+.footdiv1{
+      width: 60rem;
+      margin: 0 2rem 0 2rem;
+      line-height: 2.5rem;
+}
+
+.footdiv2{
+      width: 35rem;
+      margin: 0 2rem 0 2rem;
+      line-height: 2.5rem;
+}
+
+.footerbig{
+      font-weight: 600;
+      text-decoration: underline;
+}
+
+.footlastdiv{
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5rem 5rem;
+}

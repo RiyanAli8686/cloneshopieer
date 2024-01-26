@@ -1,0 +1,75 @@
+*{
+      padding: 0;
+      margin: 0;
+}
+
+body{
+      width: 94rem;
+}
+
+
+input{
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      text-align: center;
+}
+
+#email, .PASSWORD{
+      outline: 0px;
+      border: none;
+}
+
+#anc{
+      float: inline-end;
+}
+
+#enter, #store, #pass, .account{
+      width: 35rem;
+      
+}
+
+.log,html{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+
+img{
+      height: 5rem;
+      width: 15rem;
+}
+
+.big{
+      font-size: 3rem;
+}
+
+#store, #pass{
+      border: 1px solid black;
+      margin-top: 0.7rem;
+}
+
+.account{
+      display: flex;
+}
+
+.free{
+      font-size: 1.7rem;
+}
+
+button{
+      background-color: #00e8ba;
+      margin-top: 1rem;
+      margin-left: 14.5rem;
+      font-size: 1.5rem;
+      padding: 0.5rem;
+}
+
+.log{
+      display: flex;
+      justify-content: center;
+      margin: 5rem 0 0 20rem;
+}
+
+.footerdiv{
+      width: 50rem;
+}

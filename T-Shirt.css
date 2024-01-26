@@ -1,0 +1,218 @@
+*{
+      padding: 0rem;
+      margin: 0rem;
+}
+
+body{
+      width: 94.5rem;
+}
+
+
+#firstdiv{
+      display: flex;
+}
+
+#imglogo{
+      height: 4rem;
+}
+
+#search{
+      display: flex;
+      float: right;
+      margin: 0 5rem 0 25rem;
+
+}
+
+header{
+      height: 5rem;
+      padding: 2rem;
+      background-color: rgb(191, 207, 221);
+}
+
+.navdiv, #navdivtext{
+      margin: 0 2rem 0 2rem;
+      
+}
+
+#material-symbols-outlined{
+      height: 1rem;
+      width: 1rem;
+}
+
+#navdivtext{
+      border: 0.2rem solid black;
+      padding: 0.5em;
+}
+
+
+#backimg{
+      background-image: url(clothphoto.jpg);
+      height: 20rem;
+}
+
+#tlogo{
+      position: absolute;
+      top: 22rem;
+      left: 7rem;
+      height: 18rem;
+      width: 17rem;
+}
+
+#logotext{
+      position: absolute;
+      top: 23rem;
+      left: 27rem;
+      font-size: 3rem;
+      font-weight: 5rem;
+      color: white;
+
+}
+
+#logosmall{
+      position: absolute;
+      top: 27rem;
+      left: 27rem;
+      font-size: 2rem;
+      color: white;
+}
+
+#seconddvs{
+      height: 13rem;
+}
+
+#phone{
+      position: absolute;
+      top: 32.5rem;
+      left: 27rem;
+      font-size: 2rem;
+}
+
+#email{
+      position: absolute;
+      top: 32.5rem;
+      left: 45rem;
+      font-size: 2rem;
+}
+
+#textintopdiv{
+      position: absolute;
+      top: 35rem;
+      left: 27rem;
+      font-size: 2rem;
+}
+
+a{
+      text-decoration: none;
+      color: black;
+}
+
+.fourtsmall{
+      font-size: 1.2rem;
+      color: rgb(95, 192, 95);
+}
+
+#thirddiv{
+      display: flex;
+}
+
+.thirdtext{
+      margin: 0 1rem 0 10rem;
+      font-size: 1.5rem;
+
+}
+.thirdtexts{
+      margin: 0 1rem;
+      font-size: 1.5rem;
+}
+
+#foursection, #fivesection{
+      display: flex;
+      justify-content: center;
+}
+
+.fourdiv{
+      padding: 1rem 3rem;
+}
+
+.fourtimg{
+      height: 15rem;
+      width: 15rem;
+}
+
+.percetage{
+      transform: rotate(45deg);
+      position: relative;
+      top: -15.8rem;
+      left: 4rem; 
+      display: inline-block;
+}
+
+.smallpercentage{
+      background-color: orangered;
+      font-weight: 900;
+      font-size: 1rem;
+      padding: 0.5rem 2rem 0.1rem 1.5rem ;
+     
+}
+
+#fivediv{
+      display: flex;
+      justify-content: space-around;
+      padding: 4rem 0;
+}
+
+.fivestrong{
+      font-size: 2rem;
+}
+
+.fivesmall{
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+}
+
+#fiveinput{
+      border: 0.1rem solid black;
+      padding: 0.5rem;
+}
+
+input{
+      outline: none;
+      border: none;
+      font-size: 2rem;
+}
+
+main{
+      padding: 3rem 0;
+}
+
+#lastdiv{
+      display: flex;
+      background-color: #e1e7ec;
+      padding: 3rem 2rem;
+}
+
+#nonlastdiv{
+      display: flex;
+      float: right;
+      width: 50rem;
+      justify-content: space-around;
+      margin: 0 0 0 25rem;
+}
+
+.empty{
+      height: 4rem;
+      width: 4rem;
+      background: white;
+      position: relative;
+      top: -18rem;
+      left: 15rem;
+}
+
+.empty2{
+      height: 1rem;
+      width: 7rem;
+      background-color: white;
+      position: relative;
+      top: -22.9rem;
+      left: 10rem;
+}

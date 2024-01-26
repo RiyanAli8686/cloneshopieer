@@ -1,0 +1,100 @@
+*{
+      padding: 0rem;
+      margin: 0rem;
+}
+
+
+body{
+      display: flex;
+      justify-content: center;
+      margin: 2rem;
+      width: 94.5rem;
+            
+}
+
+img{
+      width: 10rem;
+      height: 5rem;
+}
+
+h6{
+      font-size: 2rem;
+      font-weight: 900;
+}
+
+small{
+      font-size: 1.5rem;
+      font-weight: 500;
+}
+
+.img{
+      
+      height: 4.3rem;
+      width: 58rem;
+      margin: 0.2rem;
+      border: 1px solid black;
+ 
+}
+
+#NAME{
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      margin: 0.2rem;
+      border: none;
+      outline: 0px;
+}
+
+#ADRESS, #NUMBER , #PASSWORD, #AGAIN {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      margin-left: 0.2rem;
+      margin-right: 0.2rem;
+      display: flex;
+      justify-content: center;
+      border: none;
+      outline: 0px;
+}
+
+.singadd{
+      display: flex;
+      
+      padding-left: 1rem;
+      padding-right: 1rem;
+      line-height: 1.5rem;
+
+}
+
+.last{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: larger;
+
+}
+
+#accept,#Data{
+      font-weight: 900;
+}
+
+.lastdiv{
+      font-size: 1.5rem;
+}
+
+button{
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      border-radius: 0.7rem;
+      background-color: #00e8ba;
+}
+
+.button{
+      display: flex;
+      justify-content: center;
+}
+
+.sing{
+      border: 1px solid black;
+      margin: 0.5rem;
+}
